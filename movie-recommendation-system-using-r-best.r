@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "91b789c5",
+   "id": "a2895dcb",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.00239,
-     "end_time": "2023-02-09T09:00:50.125344",
+     "duration": 0.002707,
+     "end_time": "2023-02-09T09:01:57.368870",
      "exception": false,
-     "start_time": "2023-02-09T09:00:50.122954",
+     "start_time": "2023-02-09T09:01:57.366163",
      "status": "completed"
     },
     "tags": []
@@ -80,6 +80,7 @@
     "\n",
     "# Most common loss functions in Machine Learning:\n",
     "- Mean Absolute Error/L1 Loss (MAE)\n",
+    "    - Mean absolute error, is measured as the average of the sum of absolute differences between predictions and actual observations. Like MSE, this as well measures the magnitude of error without considering their direction. Unlike MSE, MAE needs more complicated tools such as linear programming to compute the gradients. Plus MAE is more robust to outliers since it does not make use of squares.\n",
     "- Mean Square Error/Quadratic Loss/L2 Loss (MSE)\n",
     "    - Mean square error is measured as the average squared difference between predictions and actual observations. It’s only concerned with the average magnitude of error irrespective of their direction. However, due to squaring, predictions that are far away from actual values are penalized heavily in comparison to less deviated predictions. Plus MSE has nice mathematical properties which make it easier to calculate gradients.\n",
     "- Root Mean Square Error (RMSE)"
@@ -102,14 +103,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.848314,
-   "end_time": "2023-02-09T09:00:50.249025",
+   "duration": 3.688116,
+   "end_time": "2023-02-09T09:01:57.494110",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:00:46.400711",
+   "start_time": "2023-02-09T09:01:53.805994",
    "version": "2.4.0"
   }
  },
