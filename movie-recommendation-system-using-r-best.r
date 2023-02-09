@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "a2895dcb",
+   "id": "4387dc13",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002707,
-     "end_time": "2023-02-09T09:01:57.368870",
+     "duration": 0.002284,
+     "end_time": "2023-02-09T09:02:41.911674",
      "exception": false,
-     "start_time": "2023-02-09T09:01:57.366163",
+     "start_time": "2023-02-09T09:02:41.909390",
      "status": "completed"
     },
     "tags": []
@@ -83,7 +83,10 @@
     "    - Mean absolute error, is measured as the average of the sum of absolute differences between predictions and actual observations. Like MSE, this as well measures the magnitude of error without considering their direction. Unlike MSE, MAE needs more complicated tools such as linear programming to compute the gradients. Plus MAE is more robust to outliers since it does not make use of squares.\n",
     "- Mean Square Error/Quadratic Loss/L2 Loss (MSE)\n",
     "    - Mean square error is measured as the average squared difference between predictions and actual observations. It’s only concerned with the average magnitude of error irrespective of their direction. However, due to squaring, predictions that are far away from actual values are penalized heavily in comparison to less deviated predictions. Plus MSE has nice mathematical properties which make it easier to calculate gradients.\n",
-    "- Root Mean Square Error (RMSE)"
+    "- Root Mean Square Error (RMSE)\n",
+    "    - Root mean square error or root mean square deviation is one of the most commonly used measures for evaluating the quality of predictions. It shows how far predictions fall from measured true values using Euclidean distance.\n",
+    "\n",
+    "    - To compute RMSE, calculate the residual (difference between prediction and truth) for each data point, compute the norm of residual for each data point, compute the mean of residuals, and take the square root of that mean. RMSE is commonly used in supervised learning applications, as RMSE uses and needs true measurements at each predicted data point."
    ]
   }
  ],
@@ -103,14 +106,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.688116,
-   "end_time": "2023-02-09T09:01:57.494110",
+   "duration": 3.736378,
+   "end_time": "2023-02-09T09:02:42.036203",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:01:53.805994",
+   "start_time": "2023-02-09T09:02:38.299825",
    "version": "2.4.0"
   }
  },
