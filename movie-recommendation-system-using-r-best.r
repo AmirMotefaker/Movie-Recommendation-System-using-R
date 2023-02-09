@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "f9d18e79",
+   "id": "d8d718d8",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002233,
-     "end_time": "2023-02-09T09:06:49.760250",
+     "duration": 0.001748,
+     "end_time": "2023-02-09T09:07:42.273261",
      "exception": false,
-     "start_time": "2023-02-09T09:06:49.758017",
+     "start_time": "2023-02-09T09:07:42.271513",
      "status": "completed"
     },
     "tags": []
@@ -74,7 +74,7 @@
     "- This document is structured as follows. Chapter 1 describes the dataset and summarizes the goal of the project and the key steps that were performed. In chapter 2 we explain the process and techniques used, such as data cleaning, data exploration, and visualization, any insights gained, and the modeling approach. In chapter 3 we present the modeling results and discuss the model performance. We conclude in chapter 4 with a brief summary of the report, its limitations, and future work.\n",
     "\n",
     "# MovieLens Dataset\n",
-    "- GroupLens is a research lab at the University of Minnesota that has collected and made available rating data for movies on the [MovieLens website](https://grouplens.org/datasets/movielens/).\n",
+    "- GroupLens is a research lab at the [University of Minnesota](https://twin-cities.umn.edu/) that has collected and made available rating data for movies on the [MovieLens website](https://grouplens.org/datasets/movielens/).\n",
     "\n",
     "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users.\n",
     "\n",
@@ -110,14 +110,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.596146,
-   "end_time": "2023-02-09T09:06:49.884531",
+   "duration": 3.186655,
+   "end_time": "2023-02-09T09:07:42.396170",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:06:46.288385",
+   "start_time": "2023-02-09T09:07:39.209515",
    "version": "2.4.0"
   }
  },
