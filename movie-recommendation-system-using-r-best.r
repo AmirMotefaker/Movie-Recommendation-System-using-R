@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "5bdfaaf3",
+   "id": "6909a96c",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.00155,
-     "end_time": "2023-02-09T08:27:39.300321",
+     "duration": 0.002215,
+     "end_time": "2023-02-09T08:28:14.396373",
      "exception": false,
-     "start_time": "2023-02-09T08:27:39.298771",
+     "start_time": "2023-02-09T08:28:14.394158",
      "status": "completed"
     },
     "tags": []
@@ -61,7 +61,7 @@
     "\n",
     "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)\n",
     "\n",
-    "# Important points of movie recommendation for the user\n",
+    "# Important points of movie recommendation\n",
     "\n",
     "- Recommendation systems play an important role in e-commerce and online streaming services, such as Netflix, YouTube, and Amazon. Making the right recommendation for the next product, music or movie increases user retention and satisfaction, leading to sales and profit growth. Companies competing for customer loyalty invest in systems that capture and analyze the user’s preferences and offer products or services with a higher likelihood of purchase.\n",
     "\n",
@@ -91,14 +91,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.23283,
-   "end_time": "2023-02-09T08:27:39.422023",
+   "duration": 4.069866,
+   "end_time": "2023-02-09T08:28:14.518390",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:27:36.189193",
+   "start_time": "2023-02-09T08:28:10.448524",
    "version": "2.4.0"
   }
  },
