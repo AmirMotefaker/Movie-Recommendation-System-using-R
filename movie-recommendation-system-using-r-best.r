@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "81590229",
+   "id": "05b5614d",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002213,
-     "end_time": "2023-02-09T08:02:30.015848",
+     "duration": 0.002273,
+     "end_time": "2023-02-09T08:05:22.754854",
      "exception": false,
-     "start_time": "2023-02-09T08:02:30.013635",
+     "start_time": "2023-02-09T08:05:22.752581",
      "status": "completed"
     },
     "tags": []
@@ -40,7 +40,19 @@
     "    4. Strategy. \n",
     "        - Implement a content-based or collaborative filtering strategy.\n",
     "    5. Combination. \n",
-    "        - Combine recommendation lists to get a reasonable estimate across the ratings. The combined dataset of movie ratings can now be used for either filtering model."
+    "        - Combine recommendation lists to get a reasonable estimate across the ratings. The combined dataset of movie ratings can now be used for either filtering model.\n",
+    "        \n",
+    "# Best Movie Datasets for Recommendation Systems in ML\n",
+    "- [MovieLens 25M data set](https://grouplens.org/datasets/movielens/)\n",
+    "- [IMDB Datasets](https://www.imdb.com/interfaces/)\n",
+    "- Linguistic Data of 32k Film Subtitles with IMBDb Meta-Data\n",
+    "- Film data set from UCI\n",
+    "- Full MovieLens dataset on Kaggle\n",
+    "- Cornell Film Review Data\n",
+    "- French National Cinema Center datasets\n",
+    "- Movie Industry on Kaggle\n",
+    "- Movie Body Counts\n",
+    "- Movie datasets on data.world"
    ]
   }
  ],
@@ -60,14 +72,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.24631,
-   "end_time": "2023-02-09T08:02:30.140430",
+   "duration": 3.494734,
+   "end_time": "2023-02-09T08:05:22.876625",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:02:25.894120",
+   "start_time": "2023-02-09T08:05:19.381891",
    "version": "2.4.0"
   }
  },
