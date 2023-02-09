@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "4387dc13",
+   "id": "21d3f060",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002284,
-     "end_time": "2023-02-09T09:02:41.911674",
+     "duration": 0.002319,
+     "end_time": "2023-02-09T09:03:42.337442",
      "exception": false,
-     "start_time": "2023-02-09T09:02:41.909390",
+     "start_time": "2023-02-09T09:03:42.335123",
      "status": "completed"
     },
     "tags": []
@@ -61,7 +61,7 @@
     "\n",
     "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)\n",
     "\n",
-    "# Important points of movie recommendation\n",
+    "# Important points of Movie Recommendation\n",
     "\n",
     "- Recommendation systems play an important role in e-commerce and online streaming services, such as Netflix, YouTube, and Amazon. Making the right recommendation for the next product, music or movie increases user retention and satisfaction, leading to sales and profit growth. Companies competing for customer loyalty invest in systems that capture and analyze the user’s preferences and offer products or services with a higher likelihood of purchase.\n",
     "\n",
@@ -78,7 +78,7 @@
     "\n",
     "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users.\n",
     "\n",
-    "# Most common loss functions in Machine Learning:\n",
+    "# Most common loss functions in ML\n",
     "- Mean Absolute Error/L1 Loss (MAE)\n",
     "    - Mean absolute error, is measured as the average of the sum of absolute differences between predictions and actual observations. Like MSE, this as well measures the magnitude of error without considering their direction. Unlike MSE, MAE needs more complicated tools such as linear programming to compute the gradients. Plus MAE is more robust to outliers since it does not make use of squares.\n",
     "- Mean Square Error/Quadratic Loss/L2 Loss (MSE)\n",
@@ -106,14 +106,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.736378,
-   "end_time": "2023-02-09T09:02:42.036203",
+   "duration": 3.597482,
+   "end_time": "2023-02-09T09:03:42.458923",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:02:38.299825",
+   "start_time": "2023-02-09T09:03:38.861441",
    "version": "2.4.0"
   }
  },
