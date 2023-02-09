@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "5edfcbe3",
+   "id": "5bdfaaf3",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.001751,
-     "end_time": "2023-02-09T08:10:31.673831",
+     "duration": 0.00155,
+     "end_time": "2023-02-09T08:27:39.300321",
      "exception": false,
-     "start_time": "2023-02-09T08:10:31.672080",
+     "start_time": "2023-02-09T08:27:39.298771",
      "status": "completed"
     },
     "tags": []
@@ -56,11 +56,22 @@
     "\n",
     "# Top Movie Recommendation System Use Cases\n",
     "- Netflix\n",
-    "- YouTube\n",
     "- Amazon\n",
-    "- Facebook\n",
+    "- YouTube\n",
     "\n",
-    "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)"
+    "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)\n",
+    "\n",
+    "# Important points of movie recommendation for the user\n",
+    "\n",
+    "- Recommendation systems play an important role in e-commerce and online streaming services, such as Netflix, YouTube, and Amazon. Making the right recommendation for the next product, music or movie increases user retention and satisfaction, leading to sales and profit growth. Companies competing for customer loyalty invest in systems that capture and analyze the user’s preferences and offer products or services with a higher likelihood of purchase.\n",
+    "\n",
+    "- The economic impact of such a company-customer relationship is clear: Amazon is the largest online retail company by sales and part of its success comes from the recommendation system and marketing based on user preferences. In 2006 Netflix offered a one million dollar prize2 for the person or group that could improve their recommendation system by at least 10%.\n",
+    "\n",
+    "- Usually, recommendation systems are based on a rating scale from 1 to 5 grades or stars, with 1 indicating the lowest satisfaction and 5 being the highest satisfaction. Other indicators can also be used, such as comments posted on previously used items; video, music, or link shared with friends; percentage of movies watched or music listened; web pages visited and time spent on each page; product category; and any other interaction with the company’s web site or application can be used as a predictor.\n",
+    "\n",
+    "- The primary goal of recommendation systems is to help users find what they want based on their preferences and previous interactions and predict the rating for a new item. In this document, we create a movie recommendation system using the MovieLens dataset and apply the lessons learned during Harvard’s Data Science Professional Certificate3 program.\n",
+    "\n",
+    "- This document is structured as follows. Chapter 1 describes the dataset and summarizes the goal of the project and the key steps that were performed. In chapter 2 we explain the process and techniques used, such as data cleaning, data exploration, and visualization, any insights gained, and the modeling approach. In chapter 3 we present the modeling results and discuss the model performance. We conclude in chapter 4 with a brief summary of the report, its limitations, and future work."
    ]
   }
  ],
@@ -80,14 +91,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.545082,
-   "end_time": "2023-02-09T08:10:31.794861",
+   "duration": 3.23283,
+   "end_time": "2023-02-09T08:27:39.422023",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:10:28.249779",
+   "start_time": "2023-02-09T08:27:36.189193",
    "version": "2.4.0"
   }
  },
