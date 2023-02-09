@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "6909a96c",
+   "id": "6cfc819f",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002215,
-     "end_time": "2023-02-09T08:28:14.396373",
+     "duration": 0.002297,
+     "end_time": "2023-02-09T08:32:14.730530",
      "exception": false,
-     "start_time": "2023-02-09T08:28:14.394158",
+     "start_time": "2023-02-09T08:32:14.728233",
      "status": "completed"
     },
     "tags": []
@@ -71,7 +71,12 @@
     "\n",
     "- The primary goal of recommendation systems is to help users find what they want based on their preferences and previous interactions and predict the rating for a new item. In this document, we create a movie recommendation system using the MovieLens dataset and apply the lessons learned during Harvard’s Data Science Professional Certificate3 program.\n",
     "\n",
-    "- This document is structured as follows. Chapter 1 describes the dataset and summarizes the goal of the project and the key steps that were performed. In chapter 2 we explain the process and techniques used, such as data cleaning, data exploration, and visualization, any insights gained, and the modeling approach. In chapter 3 we present the modeling results and discuss the model performance. We conclude in chapter 4 with a brief summary of the report, its limitations, and future work."
+    "- This document is structured as follows. Chapter 1 describes the dataset and summarizes the goal of the project and the key steps that were performed. In chapter 2 we explain the process and techniques used, such as data cleaning, data exploration, and visualization, any insights gained, and the modeling approach. In chapter 3 we present the modeling results and discuss the model performance. We conclude in chapter 4 with a brief summary of the report, its limitations, and future work.\n",
+    "\n",
+    "# MovieLens Dataset\n",
+    "- GroupLens is a research lab at the University of Minnesota that has collected and made available rating data for movies on the [MovieLens website](https://grouplens.org/datasets/movielens/).\n",
+    "\n",
+    "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users."
    ]
   }
  ],
@@ -91,14 +96,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.069866,
-   "end_time": "2023-02-09T08:28:14.518390",
+   "duration": 3.44761,
+   "end_time": "2023-02-09T08:32:14.852652",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:28:10.448524",
+   "start_time": "2023-02-09T08:32:11.405042",
    "version": "2.4.0"
   }
  },
