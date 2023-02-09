@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "13d1513c",
+   "id": "5edfcbe3",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.00176,
-     "end_time": "2023-02-09T08:07:26.453850",
+     "duration": 0.001751,
+     "end_time": "2023-02-09T08:10:31.673831",
      "exception": false,
-     "start_time": "2023-02-09T08:07:26.452090",
+     "start_time": "2023-02-09T08:10:31.672080",
      "status": "completed"
     },
     "tags": []
@@ -52,7 +52,15 @@
     "- [French National Cinema Center datasets](https://www.data.gouv.fr/fr/organizations/centre-national-du-cinema-et-de-l-image-animee/)\n",
     "- [Movie Industry on Kaggle](https://www.kaggle.com/danielgrijalvas/movies)\n",
     "- [Movie Body Counts](http://moviebodycounts.com/)\n",
-    "- [Movie datasets on data.world](https://data.world/datasets/movies)"
+    "- [Movie datasets on data.world](https://data.world/datasets/movies)\n",
+    "\n",
+    "# Top Movie Recommendation System Use Cases\n",
+    "- Netflix\n",
+    "- YouTube\n",
+    "- Amazon\n",
+    "- Facebook\n",
+    "\n",
+    "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)"
    ]
   }
  ],
@@ -72,14 +80,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.416579,
-   "end_time": "2023-02-09T08:07:26.574870",
+   "duration": 3.545082,
+   "end_time": "2023-02-09T08:10:31.794861",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:07:23.158291",
+   "start_time": "2023-02-09T08:10:28.249779",
    "version": "2.4.0"
   }
  },
