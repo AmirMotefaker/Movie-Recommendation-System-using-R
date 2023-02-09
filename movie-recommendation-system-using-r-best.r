@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "d8d718d8",
+   "id": "e1d9c1ae",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.001748,
-     "end_time": "2023-02-09T09:07:42.273261",
+     "duration": 0.00233,
+     "end_time": "2023-02-09T09:09:43.086680",
      "exception": false,
-     "start_time": "2023-02-09T09:07:42.271513",
+     "start_time": "2023-02-09T09:09:43.084350",
      "status": "completed"
     },
     "tags": []
@@ -55,9 +55,9 @@
     "- [Movie datasets on data.world](https://data.world/datasets/movies)\n",
     "\n",
     "# Top Movie Recommendation System Use Cases\n",
-    "- Netflix\n",
-    "- Amazon\n",
-    "- YouTube\n",
+    "- [Netflix](https://www.netflix.com/)\n",
+    "- [Amazon](https://www.primevideo.com/)\n",
+    "- [YouTube](https://www.youtube.com/)\n",
     "\n",
     "Reference: [LabelYourData](https://labelyourdata.com/articles/movie-recommendation-with-machine-learning#introduction_to_the_movie_recommendation_system_architecture)\n",
     "\n",
@@ -110,14 +110,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.186655,
-   "end_time": "2023-02-09T09:07:42.396170",
+   "duration": 3.465991,
+   "end_time": "2023-02-09T09:09:43.208293",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:07:39.209515",
+   "start_time": "2023-02-09T09:09:39.742302",
    "version": "2.4.0"
   }
  },
