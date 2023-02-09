@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "892249c7",
+   "id": "91b789c5",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002072,
-     "end_time": "2023-02-09T08:58:51.778490",
+     "duration": 0.00239,
+     "end_time": "2023-02-09T09:00:50.125344",
      "exception": false,
-     "start_time": "2023-02-09T08:58:51.776418",
+     "start_time": "2023-02-09T09:00:50.122954",
      "status": "completed"
     },
     "tags": []
@@ -80,7 +80,8 @@
     "\n",
     "# Most common loss functions in Machine Learning:\n",
     "- Mean Absolute Error/L1 Loss (MAE)\n",
-    "- Mean Square Error/Quadratic Loss/L2 Loss (MSE) \n",
+    "- Mean Square Error/Quadratic Loss/L2 Loss (MSE)\n",
+    "    - Mean square error is measured as the average squared difference between predictions and actual observations. It’s only concerned with the average magnitude of error irrespective of their direction. However, due to squaring, predictions that are far away from actual values are penalized heavily in comparison to less deviated predictions. Plus MSE has nice mathematical properties which make it easier to calculate gradients.\n",
     "- Root Mean Square Error (RMSE)"
    ]
   }
@@ -101,14 +102,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.213222,
-   "end_time": "2023-02-09T08:58:51.901342",
+   "duration": 3.848314,
+   "end_time": "2023-02-09T09:00:50.249025",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:58:48.688120",
+   "start_time": "2023-02-09T09:00:46.400711",
    "version": "2.4.0"
   }
  },
