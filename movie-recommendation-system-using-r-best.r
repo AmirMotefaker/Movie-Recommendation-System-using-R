@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "6cfc819f",
+   "id": "892249c7",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002297,
-     "end_time": "2023-02-09T08:32:14.730530",
+     "duration": 0.002072,
+     "end_time": "2023-02-09T08:58:51.778490",
      "exception": false,
-     "start_time": "2023-02-09T08:32:14.728233",
+     "start_time": "2023-02-09T08:58:51.776418",
      "status": "completed"
     },
     "tags": []
@@ -76,7 +76,12 @@
     "# MovieLens Dataset\n",
     "- GroupLens is a research lab at the University of Minnesota that has collected and made available rating data for movies on the [MovieLens website](https://grouplens.org/datasets/movielens/).\n",
     "\n",
-    "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users."
+    "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users.\n",
+    "\n",
+    "# Most common loss functions in Machine Learning:\n",
+    "- Mean Absolute Error/L1 Loss (MAE)\n",
+    "- Mean Square Error/Quadratic Loss/L2 Loss (MSE) \n",
+    "- Root Mean Square Error (RMSE)"
    ]
   }
  ],
@@ -96,14 +101,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.44761,
-   "end_time": "2023-02-09T08:32:14.852652",
+   "duration": 3.213222,
+   "end_time": "2023-02-09T08:58:51.901342",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T08:32:11.405042",
+   "start_time": "2023-02-09T08:58:48.688120",
    "version": "2.4.0"
   }
  },
