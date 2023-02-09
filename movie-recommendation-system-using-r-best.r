@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "21d3f060",
+   "id": "f9d18e79",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.002319,
-     "end_time": "2023-02-09T09:03:42.337442",
+     "duration": 0.002233,
+     "end_time": "2023-02-09T09:06:49.760250",
      "exception": false,
-     "start_time": "2023-02-09T09:03:42.335123",
+     "start_time": "2023-02-09T09:06:49.758017",
      "status": "completed"
     },
     "tags": []
@@ -79,13 +79,17 @@
     "- The complete MovieLens dataset consists of 27 million ratings of 58,000 movies by 280,000 users. The research presented in this paper is based on a subset of this dataset with 10 million ratings on 10,000 movies by 72,000 users.\n",
     "\n",
     "# Most common loss functions in ML\n",
+    "\n",
     "- Mean Absolute Error/L1 Loss (MAE)\n",
     "    - Mean absolute error, is measured as the average of the sum of absolute differences between predictions and actual observations. Like MSE, this as well measures the magnitude of error without considering their direction. Unlike MSE, MAE needs more complicated tools such as linear programming to compute the gradients. Plus MAE is more robust to outliers since it does not make use of squares.\n",
+    "    \n",
+    "    \n",
     "- Mean Square Error/Quadratic Loss/L2 Loss (MSE)\n",
     "    - Mean square error is measured as the average squared difference between predictions and actual observations. It’s only concerned with the average magnitude of error irrespective of their direction. However, due to squaring, predictions that are far away from actual values are penalized heavily in comparison to less deviated predictions. Plus MSE has nice mathematical properties which make it easier to calculate gradients.\n",
+    "    \n",
+    "    \n",
     "- Root Mean Square Error (RMSE)\n",
     "    - Root mean square error or root mean square deviation is one of the most commonly used measures for evaluating the quality of predictions. It shows how far predictions fall from measured true values using Euclidean distance.\n",
-    "\n",
     "    - To compute RMSE, calculate the residual (difference between prediction and truth) for each data point, compute the norm of residual for each data point, compute the mean of residuals, and take the square root of that mean. RMSE is commonly used in supervised learning applications, as RMSE uses and needs true measurements at each predicted data point."
    ]
   }
@@ -106,14 +110,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.597482,
-   "end_time": "2023-02-09T09:03:42.458923",
+   "duration": 3.596146,
+   "end_time": "2023-02-09T09:06:49.884531",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-02-09T09:03:38.861441",
+   "start_time": "2023-02-09T09:06:46.288385",
    "version": "2.4.0"
   }
  },
