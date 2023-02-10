@@ -1,4 +1,4 @@
-# Movie Recommenion System using R
+# Movie Recommdaenion System using R
 
 # What Is a Recommendation System?
 - A recommendation system is an artificial intelligence or AI algorithm, usually associated with machine learning, that uses Big Data to suggest or recommend additional products to consumers. These can be based on various criteria, including past purchases, search history, demographic information, and other factors. Recommender systems are highly useful as they help users discover products and services they might otherwise have not found on their own.
