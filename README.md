@@ -53,7 +53,7 @@
 - A Recommendation Engine Provides Reports
     - Detailed reports are an integral part of a personalization system. Accurate and up-to-the-minute reporting will allow you to make informed decisions about the direction of a campaign or the structure of a product page.
 
-- Offer Advice and Direction
+- Offer Advice and Dirtion
     - An experienced recommendation provider like Kibo can offer advice on how to use the data collected from your recommendation engine. Acting as a partner and a consultant, the provider should have the industry know-how needed to help guide you and your ecommerce site to a prosperous future.
 
 
