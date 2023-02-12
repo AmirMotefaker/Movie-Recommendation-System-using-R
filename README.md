@@ -8,7 +8,7 @@
 # What is a product recommendation
 - In the product discovery phase, you can use more than one tool to show the consumer the most suitable options, offer the right personalized products, and design a satisfying experience. Product recommendations are one of the most powerful of these tools.
 
-# Advnage of product recommendations
+# Advantge of product recommendations
 - Recommendations for related products: 
     - Provides a list of related products that are similar to the chosen one, either in use or in price which creates a cross-selling opportunity. For example at the cart step, offering complementary products to the ones already added to the cart, you can encourage your customer to shop a little bit more.
 - Recommendations based on past purchases: 
