@@ -25,7 +25,7 @@
 
 - **Context filtering** includes users’ contextual information in the recommendation process. 
 
-# Recommendation Engine Befits
+# Recommendation Engine Benefits
 - Drive Traffic
     - Through personalized email messages and targeted blasts, a recommendation engine can encourage elevated amounts of traffic to your site, thus increasing the opportunity to scoop up more data to further enrich a customer profile.
 
