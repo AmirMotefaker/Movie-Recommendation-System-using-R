@@ -57,6 +57,6 @@
     - An experienced recommendation provider like Kibo can offer advice on how to use the data collected from your recommendation engine. Acting as a partner and a consultant, the provider should have the industry know-how needed to help guide you and your ecommerce site to a prosperous future.
 
 
-### The main goal of this machine learning project is to build a recodation system that recommends movies to users.
+### The main goal of this machine learning project is to build a recomdation system that recommends movies to users.
 
 [kaggle](https://www.kaggle.com/code/amirmotefaker/movie-recommendation-system-using-r/notebook)
